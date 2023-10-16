@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="luckiest-guy-font">Guess My Number</h1>
+  <div class="img-box">
+    <img src="img/guess.gif" alt="guess" id="change-img">
+  </div>
+  <div id="result-area">UP or DOWN?</div>
+  <div id="chance-area">남은 기회 : 5</div>
+  <div class="click-box">
+    <input type="number" id="user-input" placeholder="1~50 사이의 숫자 입력" onfocus="this.placeholder = ''" onblur="this.placeholder = '1~50 사이의 숫자 입력'">
+    <button id="click-btn">Click!</button>
+  </div>
+  <button id="reset-btn">RESET</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

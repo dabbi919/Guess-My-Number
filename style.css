@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@font-face {
+  font-family: 'ONE-Mobile-POP';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(228, 245, 255);
+}
+
+h1.luckiest-guy-font {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  margin: 50px 0 40px;
+  font-size: 4rem;
+  letter-spacing: 2.4px;
+  color: #E9E618;
+  text-shadow: 4px 4px 0 #1D1D1D;
+}
+
+.img-box {
+  width: 500px;
+  height: 320px;
+  background-color: bisque;
+  margin: auto;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+#result-area, #chance-area {
+  font-family: 'ONE-Mobile-POP';
+  color: #1D1D1D;
+  text-align: center;
+}
+
+#result-area {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+#chance-area {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
+
+.click-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  margin: auto;
+}
+
+#user-input {
+  display: block;
+  width: 280px;
+  height: 50px;
+  /* margin: auto; */
+  border-radius: 10px;
+  border: 2px solid #1D1D1D;
+  text-align: center;
+}
+
+#user-input::placeholder {
+  font-family: 'NanumSquareNeo-Variable';
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#click-btn, #reset-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 2px solid #E9E618;
+  font-family: 'NanumSquareNeo-Variable';
+  font-weight: 700;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+#reset-btn {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+}
+
+#click-btn:hover {
+  background-color: #E9E618;
+}
+
+#reset-btn:hover {
+  background-color: #E9E618;
+}
